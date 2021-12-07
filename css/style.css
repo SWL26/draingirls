@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+}
+html {
+  background: url(file:///C:/Users/Acer/Desktop/archive/images/kyleuniv.jpg) no-repeat center center;
+  min-height: 100%;
+  background-size: cover;
+}
+h1 {
+  font-family: Akzidenz-Grotesk Pro Bold Ext;
+  font-size: 57.33px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.6) 0%,
+    rgba(255, 255, 255, 0.8) 50%,
+    rgba(255, 255, 255, 0.6) 100%
+  );
+  display: inline-block;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 8px; margin-bottom: 8px;
+}
+small {
+  color: white; font-size: 13.33px; letter-spacing: 0.2em; font-family: Akzidenz-Grotesk Pro Med;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 0.66) 0%,
+    rgba(255, 0, 0, 0.8) 38%,
+    rgba(255, 33, 33, 0.613) 44%,
+    rgba(255, 33, 33, 0.35) 45%,
+    rgba(182, 93, 197, 0.8) 51%,
+    rgba(141, 0, 164, 0.66) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#one {
+  font-size: 19.2px; letter-spacing: 0.2em; font-family: Akzidenz-Grotesk Pro Med; color: #D2BE88; margin: -15px;
+  /*position: absolute;
+  width: 466px;
+  height: 23px;
+  left: 727px;
+  top: 510px;*/
+}
+#two {
+  font-size: 19.2px; letter-spacing: 0.2em; font-family: Akzidenz-Grotesk Pro Med; color: #D2BE88; margin: -15px;
+  /*position: absolute;
+  width: 466px;
+  height: 23px;
+  left: 727px;
+  top: 520px;*/
+}
+#three {
+  font-size: 19.2px; letter-spacing: 0.2em; font-family: Akzidenz-Grotesk Pro Med; color: #D2BE88; margin: -15px; 
+  margin-bottom: 64px;
+  /*position: absolute;
+  width: 466px;
+  height: 23px;
+  left: 727px;
+  top: 530px;*/
+}
+.knopka {color: white; font-size: 27.65px; font-family: Akzidenz-Grotesk Pro Med;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(255, 255, 255, 0.85) 100%
+  );
+  padding: 16px 32px;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.button:hover {transform: scale(1.08); transition: 0.16s}
+.button {background: red; display: inline-block; padding: 16px 32px; background: rgba(55, 255, 207, 0.19);
+  border-radius: 11px; border: 1px solid rgba(255, 255, 255, 0.5); transition: 0.72s;
+}
+.center1 {margin: 50% 0%;}
+
+img {
+  pointer-events: none;
+}
+.icons {position: fixed; bottom: 0px; left: 0px; width: 100%}
+.icons a {margin: 0px 8px}
+.icons a img { opacity: 48%; margin-bottom: 8px; transition: 0.72s}
+.icons a:hover img {opacity: 90%; transition: 0.16s}
