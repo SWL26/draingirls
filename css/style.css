@@ -7,7 +7,7 @@ body {
   text-align: center;
 }
 html {
-  background: url(file:///C:/Users/Acer/Desktop/archive/images/kyleuniv.jpg) no-repeat center center;
+  background: url(..images/kyleuniv.jpg) no-repeat center center;
   min-height: 100%;
   background-size: cover;
 }
